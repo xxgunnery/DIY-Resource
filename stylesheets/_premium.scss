@@ -1,0 +1,96 @@
+.premiumBanner {
+    background-color: $grey-background1;
+}
+.premiumBannerContent {
+    img {
+        margin: 15px 0px 15px 0px;
+    }
+    .text {
+        font-size: 25px;
+        color: white;
+        font-weight: 800;
+        text-align: center;
+    }
+}
+.premiumInformation {
+    background-color: $primary-color-orange;
+    padding-top: 20px;
+}
+.premiumInformationBox {
+    .premiumInformationBoxContent {
+        @include marginCenter(90%);
+        background-color: black;
+        header {
+            background-color: white;
+            color: black;
+            text-align: center;
+            @include marginCenter(90%);
+            h2 {
+                font-weight: 800;
+                font-size: 23px;
+            }
+        }
+        p {
+            color: white;
+            text-align: center;
+            padding: 8px 20px;
+            font-size: 18px;
+        }
+    }
+}
+.premiumInformationList {
+    margin-top: 10px;
+    @include marginCenter(88%);
+    list-style: none;
+    background-color: $grey-background1;
+    header {
+        text-align: center;
+        background-color: black;
+        width: 90%;
+        margin: 0% 5% 0% 5%;
+        h3 {
+            margin-top: 0px;
+            font-size: 23px;
+            color: white;
+            padding: 3px 10px 3px 10px;
+        }
+    }
+    .premiumListContent {
+        margin: 10px 0px 10px 0px;
+        @include marginCenter(95%);
+        padding: 8px 2.5% 8px 2.5%;
+        background-color: rgba(0,0,0,.2);
+        border-radius: 8px;
+    }
+    .premiumInfoHeight {
+        min-height: 80px;
+    }
+    .premiumIcon {
+        @include imageSize(80px);
+        padding: 10px;
+        background-color: #E0E0E0;
+        border-radius: 6px;
+        margin-right: 5px;
+    }
+    p {
+        font-size: 18px;
+        color: white;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+}
+@media only screen and (max-width: $sm) {
+    .premiumInformationBox {
+        .premiumInformationBoxContent {
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+    .premiumInformationList {
+        p {
+            font-size: 16px;
+        }
+    }
+}

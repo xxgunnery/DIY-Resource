@@ -1,0 +1,7 @@
+.loginContainer {
+    min-height: 800px;
+    background-color: #424242;
+}
+@media only screen and ( max-width: $sm ) {
+    min-height: 400px;
+}

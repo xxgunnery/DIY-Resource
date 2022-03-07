@@ -1,0 +1,60 @@
+.educationcontentNavContainer {
+    background-color: #E0E0E0;
+}
+.educationcontentNavArrow {
+    display: block;
+    position: fixed;
+    top: 100px;
+    z-index: 1000;
+    div {
+        background-color: rgba(white,.2);
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .triangleRight {
+            width: 14px;
+            border-top: 7px solid transparent;
+            border-left: 14px solid white;
+            border-bottom: 7px solid transparent;
+            border-right: none;
+            margin-right: 3px;
+            margin-left: 3px;
+            background: none;
+            padding: 0;
+        }
+        .triangleDown {
+            width: 12px;
+            border-left: 6px solid transparent;
+            border-right: 6px solid transparent;
+        	border-top: 12px solid white;
+            border-bottom: none;
+            margin-right: 3px;
+            margin-left: 3px;
+            background: none;
+            padding: 0;
+        }
+    }
+}
+.educationcontentNav {
+    list-style: none;
+    padding: 0px 5px 0px 10px;
+    p {
+        font-weight: 800;
+        margin: 0;
+        font-size: 22px;
+    }
+    li {
+        border-bottom: 1px solid black;
+        font-size: 16px;
+    }
+}
+.educationcontentNavHeader {
+    font-size: 27px;
+    color: black;
+    text-align: center;
+    background-color: rgba(black,.15);
+    padding: 5px;
+    font-weight: 800;
+    border-radius: 3px;
+}

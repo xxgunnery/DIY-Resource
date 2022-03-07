@@ -1,0 +1,1348 @@
+.mainContainer {
+  margin-top: 90px; }
+
+.bootstrapPaddingDestroy {
+  padding: 0; }
+
+.mainForm header {
+  padding: 0; }
+  .mainForm header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 800; }
+.mainForm div {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 40px; }
+  .mainForm div label {
+    display: block;
+    font-size: 20px;
+    font-weight: 800; }
+  .mainForm div .formInputText {
+    margin-bottom: 10px;
+    padding: 4px;
+    border-radius: 5px;
+    border: none;
+    width: 95%; }
+    .mainForm div .formInputText:focus {
+      -webkit-box-shadow: 0px 0px 5px 1px #2196F3;
+      -moz-box-shadow: 0px 0px 5px 1px #2196F3;
+      box-shadow: 0px 0px 5px 1px #2196F3; }
+  .mainForm div label .formInputCheck {
+    margin-right: 20px; }
+  .mainForm div button {
+    display: block;
+    padding: 5px;
+    margin: 5px 0px 15px 0px; }
+  .mainForm div .highlightLink {
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+    background-color: #ef6c00;
+    border-radius: 3px; }
+.mainForm .formBump {
+  margin-left: 18px;
+  background: none;
+  margin-top: 0; }
+
+.flexRows {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.flexColumns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.boldText {
+  font-weight: 800; }
+
+body {
+  font-family: Oxygen;
+  position: relative; }
+
+.homeMainContainer {
+  background-color: black; }
+
+.navbar {
+  margin-bottom: 0; }
+
+.navbar-inverse {
+  background-color: rgba(0, 0, 0, 0.6); }
+  .navbar-inverse .navbar-nav a {
+    color: white !important; }
+
+.navLogo {
+  height: 80px;
+  width: auto; }
+
+.homeNavBar a {
+  color: white;
+  font-size: 17px;
+  padding-top: 31.5px !important;
+  padding-bottom: 31.5px !important; }
+.homeNavBar a:hover {
+  color: black !important;
+  font-weight: 800;
+  background-color: darkgray !important; }
+
+@media only screen and (max-width: 768px) {
+  .homeNavBar a {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important; } }
+.navbar .divider-vertical {
+  height: 20px;
+  margin: 0 9px;
+  border-right: 1px solid #ffffff;
+  border-left: 1px solid #f2f2f2;
+  margin-top: 34px; }
+
+.navbar-inverse .divider-vertical {
+  border-right-color: white;
+  border-left-color: white; }
+
+@media (max-width: 767px) {
+  .navbar-collapse .nav > .divider-vertical {
+    display: none; } }
+.homeGridButtons {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+  .homeGridButtons div {
+    display: flex !important;
+    justify-content: center; }
+    .homeGridButtons div a {
+      font-size: 20px;
+      border-radius: 3px;
+      background-color: #ef6c00;
+      padding: 5px;
+      color: black;
+      align-items: center; }
+
+.homeNavButton {
+  width: 50%;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 5px;
+  color: black;
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: #ef6c00; }
+
+.homeLinks {
+  background-color: #ef6c00; }
+
+.homeLinksRight {
+  height: 575px;
+  background: url("../images/DeReManBlack.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 300px 550px;
+  display: flex;
+  align-items: center; }
+
+.homeLinksRightText {
+  font-size: 16px;
+  text-align: center;
+  width: 92%;
+  margin-left: 4%;
+  margin-right: 4%;
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 20px 30px 20px 30px;
+  color: white;
+  height: 225px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .homeLinksRightText a {
+    padding: 6px 6px 6px 6px;
+    background-color: #ef6c00;
+    color: black;
+    border-radius: 3px;
+    font-size: 20px; }
+
+.homeLinksLeft {
+  display: flex;
+  flex-direction: column; }
+  .homeLinksLeft div {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 5px 10px 5px; }
+  .homeLinksLeft header {
+    width: 90%;
+    align-self: center;
+    text-align: center;
+    background-color: white;
+    padding: 3px 5px 3px 5px; }
+    .homeLinksLeft header h3 {
+      font-weight: 800;
+      border-radius: 5px;
+      font-size: 28px;
+      margin-top: 0px;
+      margin-bottom: 0px; }
+  .homeLinksLeft p, .homeLinksLeft .homeFeaturedContent .highlight, .homeFeaturedContent .homeLinksLeft .highlight, .homeLinksLeft .homeFeaturedContent .highlightLink, .homeFeaturedContent .homeLinksLeft .highlightLink {
+    color: white;
+    align-self: center;
+    margin: 10px 0px 10px 0px;
+    font-weight: 800;
+    font-size: 16px;
+    text-align: center; }
+  .homeLinksLeft a {
+    align-self: center;
+    padding: 5px 5px 5px 5px;
+    background-color: #ef6c00;
+    color: black;
+    border-radius: 3px;
+    font-size: 18px; }
+
+@media only screen and (max-width: 992px) {
+  .homeLinksLeft header h3 {
+    font-size: 18px; }
+  .homeLinksLeft p, .homeLinksLeft .homeFeaturedContent .highlight, .homeFeaturedContent .homeLinksLeft .highlight, .homeLinksLeft .homeFeaturedContent .highlightLink, .homeFeaturedContent .homeLinksLeft .highlightLink {
+    font-size: 14px;
+    margin: 5px 0px 5px 0px; }
+
+  .homeLinksRight {
+    height: 350px;
+    background-size: 200px 355px; } }
+.homePromo {
+  background-color: black; }
+
+.sectionHeaderBlack, .sectionHeaderOrange {
+  border: none;
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding: 5px;
+  font-weight: 800;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.sectionHeaderOrange {
+  border: 3px solid;
+  border-color: #ef6c00; }
+
+.homeFeatured {
+  background-color: #424242; }
+
+.homeFeaturedContent .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+.homeFeaturedContent p, .homeFeaturedContent .highlight, .homeFeaturedContent .highlightLink {
+  color: white;
+  font-size: 24px;
+  text-align: center; }
+.homeFeaturedContent .highlight, .homeFeaturedContent .highlightLink {
+  font-weight: 800; }
+.homeFeaturedContent .highlightLink {
+  padding: 5px;
+  background-color: #ef6c00;
+  color: black;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  text-decoration: none; }
+.homeFeaturedContent .highlightLink:hover {
+  color: white; }
+
+.portalPage {
+  background-color: #424242; }
+
+.portalContainer {
+  height: 850px;
+  background: url("../images/DeReMan.png");
+  background-size: 450px 750px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  display: flex;
+  align-items: center; }
+
+.portalSignin {
+  background-color: rgba(239, 108, 0, 0.93);
+  display: flex;
+  flex-direction: column; }
+  .portalSignin header {
+    font-size: 30px;
+    background-color: white;
+    text-align: center;
+    font-weight: 800;
+    margin: 15px 0px 10px 0px;
+    border-radius: 3px;
+    padding: 2px 8px 2px 8px; }
+  .portalSignin p, .portalSignin .homeFeaturedContent .highlight, .homeFeaturedContent .portalSignin .highlight, .portalSignin .homeFeaturedContent .highlightLink, .homeFeaturedContent .portalSignin .highlightLink {
+    text-align: center;
+    font-size: 32px;
+    color: black; }
+  .portalSignin div {
+    display: flex;
+    justify-content: center; }
+    .portalSignin div a {
+      padding: 5px 7px 5px 7px;
+      font-size: 25px;
+      background-color: white;
+      margin: 5px 8px 15px 8px;
+      color: black;
+      font-weight: 800;
+      border-radius: 3px; }
+
+@media only screen and (max-width: 768px) {
+  .portalSignin header {
+    font-size: 15px; }
+  .portalSignin p, .portalSignin .homeFeaturedContent .highlight, .homeFeaturedContent .portalSignin .highlight, .portalSignin .homeFeaturedContent .highlightLink, .homeFeaturedContent .portalSignin .highlightLink {
+    font-size: 16px; }
+  .portalSignin div a {
+    font-size: 13px; }
+
+  .portalContainer {
+    background-size: 225px 375px;
+    height: 400px; } }
+.premiumBanner {
+  background-color: #424242; }
+
+.premiumBannerContent img {
+  margin: 15px 0px 15px 0px; }
+.premiumBannerContent .text {
+  font-size: 25px;
+  color: white;
+  font-weight: 800;
+  text-align: center; }
+
+.premiumInformation {
+  background-color: #ef6c00;
+  padding-top: 20px; }
+
+.premiumInformationBox .premiumInformationBoxContent {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: black; }
+  .premiumInformationBox .premiumInformationBoxContent header {
+    background-color: white;
+    color: black;
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%; }
+    .premiumInformationBox .premiumInformationBoxContent header h2 {
+      font-weight: 800;
+      font-size: 23px; }
+  .premiumInformationBox .premiumInformationBoxContent p, .premiumInformationBox .premiumInformationBoxContent .homeFeaturedContent .highlight, .homeFeaturedContent .premiumInformationBox .premiumInformationBoxContent .highlight, .premiumInformationBox .premiumInformationBoxContent .homeFeaturedContent .highlightLink, .homeFeaturedContent .premiumInformationBox .premiumInformationBoxContent .highlightLink {
+    color: white;
+    text-align: center;
+    padding: 8px 20px;
+    font-size: 18px; }
+
+.premiumInformationList {
+  margin-top: 10px;
+  width: 88%;
+  margin-left: 6%;
+  margin-right: 6%;
+  list-style: none;
+  background-color: #424242; }
+  .premiumInformationList header {
+    text-align: center;
+    background-color: black;
+    width: 90%;
+    margin: 0% 5% 0% 5%; }
+    .premiumInformationList header h3 {
+      margin-top: 0px;
+      font-size: 23px;
+      color: white;
+      padding: 3px 10px 3px 10px; }
+  .premiumInformationList .premiumListContent {
+    margin: 10px 0px 10px 0px;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding: 8px 2.5% 8px 2.5%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 8px; }
+  .premiumInformationList .premiumInfoHeight {
+    min-height: 80px; }
+  .premiumInformationList .premiumIcon {
+    width: 80px;
+    height: auto;
+    padding: 10px;
+    background-color: #E0E0E0;
+    border-radius: 6px;
+    margin-right: 5px; }
+  .premiumInformationList p, .premiumInformationList .homeFeaturedContent .highlight, .homeFeaturedContent .premiumInformationList .highlight, .premiumInformationList .homeFeaturedContent .highlightLink, .homeFeaturedContent .premiumInformationList .highlightLink {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0; }
+
+@media only screen and (max-width: 768px) {
+  .premiumInformationBox .premiumInformationBoxContent p, .premiumInformationBox .premiumInformationBoxContent .homeFeaturedContent .highlight, .homeFeaturedContent .premiumInformationBox .premiumInformationBoxContent .highlight, .premiumInformationBox .premiumInformationBoxContent .homeFeaturedContent .highlightLink, .homeFeaturedContent .premiumInformationBox .premiumInformationBoxContent .highlightLink {
+    font-size: 16px; }
+
+  .premiumInformationList p, .premiumInformationList .homeFeaturedContent .highlight, .homeFeaturedContent .premiumInformationList .highlight, .premiumInformationList .homeFeaturedContent .highlightLink, .homeFeaturedContent .premiumInformationList .highlightLink {
+    font-size: 16px; } }
+.contactContainer {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #424242;
+  margin-top: 90px;
+  padding-top: 20px; }
+
+.contactSection {
+  margin-bottom: 20px; }
+  .contactSection header {
+    margin-bottom: 20px;
+    background-color: black;
+    padding: 4px 0px 4px 0px; }
+    .contactSection header h1 {
+      color: white;
+      font-size: 27px;
+      margin: 0;
+      font-weight: 800; }
+
+.contactSectionContent {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 8px 0px 8px 0px; }
+  .contactSectionContent p, .contactSectionContent .homeFeaturedContent .highlight, .homeFeaturedContent .contactSectionContent .highlight, .contactSectionContent .homeFeaturedContent .highlightLink, .homeFeaturedContent .contactSectionContent .highlightLink {
+    color: white;
+    margin: 5px 0px 5px 0px;
+    font-size: 20px; }
+  .contactSectionContent .contactDescription {
+    border-bottom: 2px white solid;
+    padding-bottom: 10px; }
+  .contactSectionContent .leftText {
+    text-align: right; }
+  .contactSectionContent li {
+    color: white;
+    font-size: 20px;
+    margin-left: 40px; }
+  .contactSectionContent div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px; }
+  .contactSectionContent img {
+    height: 70px;
+    width: auto; }
+    .contactSectionContent img:hover {
+      background-color: white;
+      padding: 5px;
+      border-radius: 3px; }
+
+@media only screen and (max-width: 768px) {
+  .contactSection header h1 {
+    font-size: 20px; }
+
+  .contactSectionContent p, .contactSectionContent .homeFeaturedContent .highlight, .homeFeaturedContent .contactSectionContent .highlight, .contactSectionContent .homeFeaturedContent .highlightLink, .homeFeaturedContent .contactSectionContent .highlightLink {
+    font-size: 16px;
+    text-align: center; }
+  .contactSectionContent .leftText {
+    text-align: center; }
+  .contactSectionContent img {
+    height: 50px; }
+  .contactSectionContent li {
+    font-size: 16px;
+    margin-left: 20px; } }
+.termsContainer {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: 90px;
+  padding-top: 20px; }
+  .termsContainer h1 {
+    color: black;
+    text-align: center; }
+
+.termsSection h2 {
+  color: black;
+  font-size: 24px; }
+
+.termsList {
+  padding: 4px; }
+  .termsList li {
+    color: black;
+    margin: 3px 0px 3px 40px; }
+
+@media only screen and (max-width: 992px) {
+  .termsContainer {
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%; }
+    .termsContainer h1 {
+      font-size: 20px; }
+
+  .termsSection h2 {
+    font-size: 16px; }
+
+  .termsList li {
+    margin-left: 30px; } }
+.loginContainer {
+  min-height: 800px;
+  background-color: #424242; }
+
+@media only screen and (max-width: 768px) {
+  min-height: 400px; }
+.signupContainer {
+  min-height: 800px;
+  background-color: #424242; }
+
+.signupInstruction {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 10px;
+  border-radius: 5px; }
+  .signupInstruction header h1 {
+    margin: 0;
+    font-size: 24px; }
+  .signupInstruction p, .signupInstruction .homeFeaturedContent .highlight, .homeFeaturedContent .signupInstruction .highlight, .signupInstruction .homeFeaturedContent .highlightLink, .homeFeaturedContent .signupInstruction .highlightLink {
+    font-size: 18px;
+    margin-top: 20px;
+    color: black;
+    padding-left: 18px; }
+    .signupInstruction p a, .signupInstruction .homeFeaturedContent .highlight a, .homeFeaturedContent .signupInstruction .highlight a, .signupInstruction .homeFeaturedContent .highlightLink a, .homeFeaturedContent .signupInstruction .highlightLink a {
+      color: black; }
+  .signupInstruction ol {
+    padding: 0;
+    margin: 0;
+    padding-left: 18px; }
+    .signupInstruction ol header h2 {
+      font-size: 24px; }
+    .signupInstruction ol li {
+      margin-left: 30px;
+      font-size: 18px;
+      color: black; }
+
+@media only screen and (max-width: 768px) {
+  .signupContainer {
+    min-height: 400px; } }
+.forgotContainer {
+  min-height: 800px;
+  background-color: #424242; }
+
+.projectsContainer {
+  background-color: #F57C00;
+  padding: 20px; }
+
+.projectsNavSection {
+  list-style: none; }
+  .projectsNavSection h1 {
+    margin: 0; }
+  .projectsNavSection .projectCardContainer {
+    background-color: white;
+    margin: 20px 0px 20px 0px;
+    position: relative;
+    box-shadow: -2px 2px 5px black; }
+
+.projectCard {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 40px 30px 40px; }
+  .projectCard header {
+    margin-bottom: 20px; }
+    .projectCard header h2 {
+      font-size: 35px;
+      margin: 0;
+      font-weight: 800;
+      color: black; }
+  .projectCard p, .projectCard .homeFeaturedContent .highlight, .homeFeaturedContent .projectCard .highlight, .projectCard .homeFeaturedContent .highlightLink, .homeFeaturedContent .projectCard .highlightLink {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 5px 5px 5px; }
+  .projectCard nav {
+    display: flex;
+    flex-direction: column; }
+    .projectCard nav a {
+      color: black;
+      background-color: #ef6c00;
+      padding: 5px;
+      border-radius: 4px;
+      font-size: 20px;
+      margin: 10px 0px 10px 0px;
+      width: 40%;
+      align-self: center;
+      text-align: center; }
+
+.projectImageXS, .projectImageS, .projectImageM, .projectImageL, .projectImageXL {
+  width: 20%;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+  .projectImageXS img, .projectImageS img, .projectImageM img, .projectImageL img, .projectImageXL img {
+    width: 100%; }
+
+.projectImageS {
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%; }
+
+.projectImageM {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%; }
+
+.projectImageL {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%; }
+
+.projectImageXL {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%; }
+
+@media only screen and (max-width: 1500px) and (min-width: 1201px) {
+  .projectCard nav {
+    flex-direction: row;
+    justify-content: center; }
+    .projectCard nav a {
+      margin: 0px 10px 0px 10px; } }
+@media only screen and (max-width: 1200px) and (min-width: 991px) {
+  .projectsNavSection h1 {
+    font-size: 20px; }
+
+  .projectCard header h2 {
+    font-size: 16px; }
+  .projectCard p, .projectCard .homeFeaturedContent .highlight, .homeFeaturedContent .projectCard .highlight, .projectCard .homeFeaturedContent .highlightLink, .homeFeaturedContent .projectCard .highlightLink {
+    font-size: 14px; }
+  .projectCard nav {
+    flex-direction: row;
+    justify-content: center; }
+    .projectCard nav a {
+      margin: 0px 10px 0px 10px;
+      width: 40%;
+      font-size: 14px; } }
+@media only screen and (max-width: 990px) and (min-width: 750px) {
+  .projectsNavSection h1 {
+    font-size: 20px; }
+
+  .projectCard header h2 {
+    font-size: 16px; }
+  .projectCard p, .projectCard .homeFeaturedContent .highlight, .homeFeaturedContent .projectCard .highlight, .projectCard .homeFeaturedContent .highlightLink, .homeFeaturedContent .projectCard .highlightLink {
+    font-size: 14px; }
+  .projectCard nav {
+    flex-direction: row;
+    justify-content: center; }
+    .projectCard nav a {
+      margin: 0px 10px 0px 10px;
+      width: 50%;
+      font-size: 14px; } }
+@media only screen and (max-width: 749px) and (min-width: 450px) {
+  .projectsNavSection h1 {
+    font-size: 20px; }
+
+  .projectCard header h2 {
+    font-size: 16px; }
+  .projectCard p, .projectCard .homeFeaturedContent .highlight, .homeFeaturedContent .projectCard .highlight, .projectCard .homeFeaturedContent .highlightLink, .homeFeaturedContent .projectCard .highlightLink {
+    font-size: 14px; }
+  .projectCard nav {
+    flex-direction: row;
+    justify-content: center; }
+    .projectCard nav a {
+      margin: 0px 10px 0px 10px;
+      width: 50%;
+      font-size: 14px; } }
+@media only screen and (max-width: 449px) {
+  .projectsNavSection h1 {
+    font-size: 20px; }
+
+  .projectCard {
+    padding: 10px; }
+    .projectCard header h2 {
+      font-size: 16px; }
+    .projectCard p, .projectCard .homeFeaturedContent .highlight, .homeFeaturedContent .projectCard .highlight, .projectCard .homeFeaturedContent .highlightLink, .homeFeaturedContent .projectCard .highlightLink {
+      font-size: 14px; }
+    .projectCard nav {
+      flex-direction: row;
+      justify-content: center; }
+      .projectCard nav a {
+        font-size: 14px;
+        width: 70%;
+        margin: 0px 5px 0px 5px; }
+    .projectCard p, .projectCard .homeFeaturedContent .highlight, .homeFeaturedContent .projectCard .highlight, .projectCard .homeFeaturedContent .highlightLink, .homeFeaturedContent .projectCard .highlightLink {
+      font-size: 14px; } }
+.educationalSection {
+  display: inline; }
+
+.educationalContainer {
+  background-color: #F57C00;
+  padding: 20px; }
+
+.educationalNavSection {
+  list-style: none; }
+  .educationalNavSection h1 {
+    margin: 0; }
+  .educationalNavSection .educationalCardContainer {
+    background-color: white;
+    margin: 20px 0px 20px 0px;
+    position: relative;
+    box-shadow: -2px 2px 5px black; }
+
+.educationalCard {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 20px 15px 20px; }
+  .educationalCard header {
+    margin-bottom: 20px; }
+    .educationalCard header h2 {
+      font-size: 22px;
+      margin: 0;
+      font-weight: 800;
+      color: black; }
+  .educationalCard p, .educationalCard .homeFeaturedContent .highlight, .homeFeaturedContent .educationalCard .highlight, .educationalCard .homeFeaturedContent .highlightLink, .homeFeaturedContent .educationalCard .highlightLink {
+    color: black;
+    font-size: 16px; }
+  .educationalCard a {
+    color: black;
+    background-color: #ef6c00;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 18px;
+    margin: 10px 0px 10px 0px;
+    align-self: center;
+    text-align: center; }
+
+@media only screen and (max-width: 1600px) and (min-width: 1201px) {
+  .educationalNavSection {
+    list-style: none; }
+    .educationalNavSection h1 {
+      margin: 0; }
+    .educationalNavSection .educationalCardContainer {
+      background-color: white;
+      margin: 20px 0px 20px 0px;
+      position: relative;
+      box-shadow: -2px 2px 5px black; } }
+.educationContainer {
+  display: flex;
+  margin-left: 0px;
+  margin-right: 0px; }
+
+.educationcontentNavContainer {
+  background-color: #E0E0E0; }
+
+.educationcontentNavArrow {
+  display: block;
+  position: fixed;
+  top: 100px;
+  z-index: 1000; }
+  .educationcontentNavArrow div {
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .educationcontentNavArrow div .triangleRight {
+      width: 14px;
+      border-top: 7px solid transparent;
+      border-left: 14px solid white;
+      border-bottom: 7px solid transparent;
+      border-right: none;
+      margin-right: 3px;
+      margin-left: 3px;
+      background: none;
+      padding: 0; }
+    .educationcontentNavArrow div .triangleDown {
+      width: 12px;
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      border-top: 12px solid white;
+      border-bottom: none;
+      margin-right: 3px;
+      margin-left: 3px;
+      background: none;
+      padding: 0; }
+
+.educationcontentNav {
+  list-style: none;
+  padding: 0px 5px 0px 10px; }
+  .educationcontentNav p, .educationcontentNav .homeFeaturedContent .highlight, .homeFeaturedContent .educationcontentNav .highlight, .educationcontentNav .homeFeaturedContent .highlightLink, .homeFeaturedContent .educationcontentNav .highlightLink {
+    font-weight: 800;
+    margin: 0;
+    font-size: 22px; }
+  .educationcontentNav li {
+    border-bottom: 1px solid black;
+    font-size: 16px; }
+
+.educationcontentNavHeader {
+  font-size: 27px;
+  color: black;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.15);
+  padding: 5px;
+  font-weight: 800;
+  border-radius: 3px; }
+
+.educationcontentContainer {
+  background-color: #424242; }
+  .educationcontentContainer .educationcontentVideo {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%; }
+  .educationcontentContainer header h1 {
+    margin-left: 0px;
+    margin-right: 0px; }
+  .educationcontentContainer #expandVertical {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    margin-bottom: 10px; }
+    .educationcontentContainer #expandVertical .triangleRight {
+      display: inline-block;
+      width: 16px;
+      border-top: 7px solid transparent;
+      border-left: 14px solid white;
+      border-bottom: 7px solid transparent;
+      margin-right: 3px; }
+    .educationcontentContainer #expandVertical .triangleDown {
+      display: inline-block;
+      width: 12px;
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      border-top: 12px solid white;
+      margin-right: 3px; }
+  .educationcontentContainer .educationcontentDetails {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+  .educationcontentContainer #educationcontentDetailsList {
+    display: none;
+    padding: 20px 20px 20px 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 8px; }
+    .educationcontentContainer #educationcontentDetailsList p, .educationcontentContainer #educationcontentDetailsList .homeFeaturedContent .highlight, .homeFeaturedContent .educationcontentContainer #educationcontentDetailsList .highlight, .educationcontentContainer #educationcontentDetailsList .homeFeaturedContent .highlightLink, .homeFeaturedContent .educationcontentContainer #educationcontentDetailsList .highlightLink {
+      color: white;
+      font-size: 18px; }
+    .educationcontentContainer #educationcontentDetailsList li {
+      color: white;
+      font-size: 18px;
+      margin-left: 40px; }
+
+.educationcontentSection {
+  padding: 10px; }
+  .educationcontentSection header {
+    margin: 10px 10px 10px 10px; }
+    .educationcontentSection header h2 {
+      font-size: 20px;
+      font-weight: 800;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.2);
+      display: inline;
+      padding: 8px 10px 8px 10px;
+      border-radius: 3px; }
+  .educationcontentSection p, .educationcontentSection .homeFeaturedContent .highlight, .homeFeaturedContent .educationcontentSection .highlight, .educationcontentSection .homeFeaturedContent .highlightLink, .homeFeaturedContent .educationcontentSection .highlightLink {
+    color: white;
+    font-size: 18px;
+    padding: 10px 10px 10px 10px;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%; }
+  .educationcontentSection .educationcontentQA {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    background-color: #FBC02D;
+    padding: 10px 25px 10px 25px;
+    border-radius: 6px;
+    border-top: inset;
+    border-bottom: groove;
+    border-left: none;
+    border-right: none;
+    border-width: 6px;
+    border-color: #BDBDBD; }
+    .educationcontentSection .educationcontentQA article div {
+      margin: 15px 0px 15px 0px; }
+      .educationcontentSection .educationcontentQA article div h3 {
+        color: black;
+        font-weight: 800;
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+        display: inline; }
+      .educationcontentSection .educationcontentQA article div p, .educationcontentSection .educationcontentQA article div .homeFeaturedContent .highlight, .homeFeaturedContent .educationcontentSection .educationcontentQA article div .highlight, .educationcontentSection .educationcontentQA article div .homeFeaturedContent .highlightLink, .homeFeaturedContent .educationcontentSection .educationcontentQA article div .highlightLink {
+        font-size: 18px;
+        color: black;
+        padding: 0;
+        margin: 10px 0px 10px 10px;
+        display: inline; }
+
+.educationcontentEasylinks {
+  margin-bottom: 5px; }
+  .educationcontentEasylinks a {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 5px; }
+
+.educationcontentReferences {
+  width: 100%;
+  background-color: black;
+  margin: 0px 0px 10px 0px;
+  padding: 0;
+  text-align: center;
+  list-style-position: inside; }
+  .educationcontentReferences li {
+    color: white;
+    padding: 0; }
+    .educationcontentReferences li a {
+      color: white; }
+
+.educationcontentImageXS, .educationcontentImageS, .educationcontentImageM, .educationcontentImageL, .educationcontentImageXL {
+  width: 20%;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+  .educationcontentImageXS img, .educationcontentImageS img, .educationcontentImageM img, .educationcontentImageL img, .educationcontentImageXL img {
+    width: 100%; }
+
+.educationcontentImageS {
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%; }
+
+.educationcontentImageM {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%; }
+
+.educationcontentImageL {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%; }
+
+.educationcontentImageXL {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%; }
+
+@media only screen and (max-width: 768px) {
+  .educationcontentContainer .educationcontentVideo {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%; }
+  .educationcontentContainer header h1 {
+    font-size: 20px; }
+  .educationcontentContainer #expandVertical {
+    font-size: 14px; }
+    .educationcontentContainer #expandVertical .triangleRight {
+      width: 10px;
+      border-top: 5px solid transparent;
+      border-left: 10px solid white;
+      border-bottom: 5px solid transparent; }
+    .educationcontentContainer #expandVertical .triangleDown {
+      width: 8px;
+      border-left: 4px solid transparent;
+      border-right: 4px solid transparent;
+      border-top: 8px solid white; }
+  .educationcontentContainer #educationcontentDetailsList {
+    padding: 10px 10px 10px 10px;
+    width: 85%; }
+    .educationcontentContainer #educationcontentDetailsList p, .educationcontentContainer #educationcontentDetailsList .homeFeaturedContent .highlight, .homeFeaturedContent .educationcontentContainer #educationcontentDetailsList .highlight, .educationcontentContainer #educationcontentDetailsList .homeFeaturedContent .highlightLink, .homeFeaturedContent .educationcontentContainer #educationcontentDetailsList .highlightLink {
+      font-size: 14px; }
+    .educationcontentContainer #educationcontentDetailsList li {
+      font-size: 14px; }
+
+  .educationcontentSection header h2 {
+    font-size: 15px; }
+  .educationcontentSection p, .educationcontentSection .homeFeaturedContent .highlight, .homeFeaturedContent .educationcontentSection .highlight, .educationcontentSection .homeFeaturedContent .highlightLink, .homeFeaturedContent .educationcontentSection .highlightLink {
+    font-size: 14px; }
+  .educationcontentSection .educationcontentQA {
+    padding: 0px 15px 0px 15px; }
+    .educationcontentSection .educationcontentQA article div {
+      margin: 15px 0px 15px 0px; }
+      .educationcontentSection .educationcontentQA article div h3 {
+        font-size: 14px; }
+      .educationcontentSection .educationcontentQA article div p, .educationcontentSection .educationcontentQA article div .homeFeaturedContent .highlight, .homeFeaturedContent .educationcontentSection .educationcontentQA article div .highlight, .educationcontentSection .educationcontentQA article div .homeFeaturedContent .highlightLink, .homeFeaturedContent .educationcontentSection .educationcontentQA article div .highlightLink {
+        font-size: 14px;
+        margin: 10px 0px 10px 10px; }
+
+  .educationcontentEasylinks a {
+    font-size: 14px; } }
+.projectPromoContainer {
+  background-color: #424242; }
+  .projectPromoContainer header h1 {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    background-color: black;
+    padding: 5px 0px 5px 0px; }
+
+.projectPromoRow {
+  margin: 0;
+  padding: 0; }
+
+.projectPromo {
+  margin-top: 20px;
+  background-color: black;
+  padding: 0px 0px 0px 0px;
+  margin-bottom: 20px; }
+
+.projectPromoVideo {
+  padding: 0px; }
+
+.projectPromoLink p, .projectPromoLink .homeFeaturedContent .highlight, .homeFeaturedContent .projectPromoLink .highlight, .projectPromoLink .homeFeaturedContent .highlightLink, .homeFeaturedContent .projectPromoLink .highlightLink {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 800; }
+  .projectPromoLink p a, .projectPromoLink .homeFeaturedContent .highlight a, .homeFeaturedContent .projectPromoLink .highlight a, .projectPromoLink .homeFeaturedContent .highlightLink a, .homeFeaturedContent .projectPromoLink .highlightLink a {
+    color: black;
+    background-color: #FF9800;
+    border: white solid 6px;
+    font-weight: 800;
+    font-size: 26px;
+    padding: 4px;
+    border-radius: 2px; }
+
+.projectPromoLink2 {
+  text-align: center;
+  margin-bottom: 30px; }
+  .projectPromoLink2 a {
+    color: black;
+    background-color: #FF9800;
+    border: white solid 3px;
+    font-weight: 800;
+    font-size: 26px;
+    padding: 4px;
+    border-radius: 2px; }
+
+.projectPromoArticleContainer {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px 20px 0px;
+  background-color: black;
+  margin-bottom: 20px; }
+  .projectPromoArticleContainer .projectPromoArticle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF9800;
+    width: 90%;
+    border-radius: 10px;
+    padding: 20px; }
+    .projectPromoArticleContainer .projectPromoArticle header {
+      background-color: black;
+      padding: 5px;
+      margin: 10px 0px 10px 0px;
+      border-radius: 5px; }
+      .projectPromoArticleContainer .projectPromoArticle header h3 {
+        padding: 0;
+        margin: 0;
+        font-size: 25px;
+        color: white;
+        text-align: center; }
+    .projectPromoArticleContainer .projectPromoArticle div p, .projectPromoArticleContainer .projectPromoArticle div .homeFeaturedContent .highlight, .homeFeaturedContent .projectPromoArticleContainer .projectPromoArticle div .highlight, .projectPromoArticleContainer .projectPromoArticle div .homeFeaturedContent .highlightLink, .homeFeaturedContent .projectPromoArticleContainer .projectPromoArticle div .highlightLink {
+      font-size: 20px;
+      color: black;
+      text-align: center; }
+      .projectPromoArticleContainer .projectPromoArticle div p a, .projectPromoArticleContainer .projectPromoArticle div .homeFeaturedContent .highlight a, .homeFeaturedContent .projectPromoArticleContainer .projectPromoArticle div .highlight a, .projectPromoArticleContainer .projectPromoArticle div .homeFeaturedContent .highlightLink a, .homeFeaturedContent .projectPromoArticleContainer .projectPromoArticle div .highlightLink a {
+        color: #E65100;
+        font-weight: 800; }
+    .projectPromoArticleContainer .projectPromoArticle div ul li {
+      color: black;
+      font-size: 20px; }
+
+@media only screen and (max-width: 1200px) {
+  .projectPromoArticleContainer .projectPromoArticle {
+    padding: 10px; }
+    .projectPromoArticleContainer .projectPromoArticle header h3 {
+      font-size: 20px; }
+    .projectPromoArticleContainer .projectPromoArticle div p, .projectPromoArticleContainer .projectPromoArticle div .homeFeaturedContent .highlight, .homeFeaturedContent .projectPromoArticleContainer .projectPromoArticle div .highlight, .projectPromoArticleContainer .projectPromoArticle div .homeFeaturedContent .highlightLink, .homeFeaturedContent .projectPromoArticleContainer .projectPromoArticle div .highlightLink {
+      font-size: 16px; }
+    .projectPromoArticleContainer .projectPromoArticle div ul {
+      padding-left: 30px; }
+      .projectPromoArticleContainer .projectPromoArticle div ul li {
+        font-size: 16px; }
+
+  .projectPromoLink p, .projectPromoLink .homeFeaturedContent .highlight, .homeFeaturedContent .projectPromoLink .highlight, .projectPromoLink .homeFeaturedContent .highlightLink, .homeFeaturedContent .projectPromoLink .highlightLink {
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 1.7; }
+    .projectPromoLink p a, .projectPromoLink .homeFeaturedContent .highlight a, .homeFeaturedContent .projectPromoLink .highlight a, .projectPromoLink .homeFeaturedContent .highlightLink a, .homeFeaturedContent .projectPromoLink .highlightLink a {
+      font-size: 21px; }
+
+  .projectPromoLink2 a {
+    font-size: 19px; } }
+@media only screen and (max-width: 768px) {
+  .projectPromoArticleContainer {
+    padding-top: 0px; }
+    .projectPromoArticleContainer .projectPromoArticle {
+      padding: 10px; }
+      .projectPromoArticleContainer .projectPromoArticle header {
+        margin-top: 0px; }
+        .projectPromoArticleContainer .projectPromoArticle header h3 {
+          font-size: 20px; }
+      .projectPromoArticleContainer .projectPromoArticle div p, .projectPromoArticleContainer .projectPromoArticle div .homeFeaturedContent .highlight, .homeFeaturedContent .projectPromoArticleContainer .projectPromoArticle div .highlight, .projectPromoArticleContainer .projectPromoArticle div .homeFeaturedContent .highlightLink, .homeFeaturedContent .projectPromoArticleContainer .projectPromoArticle div .highlightLink {
+        font-size: 16px; }
+      .projectPromoArticleContainer .projectPromoArticle div ul {
+        padding-left: 20px; }
+        .projectPromoArticleContainer .projectPromoArticle div ul li {
+          font-size: 16px; }
+
+  .projectPromoLink p, .projectPromoLink .homeFeaturedContent .highlight, .homeFeaturedContent .projectPromoLink .highlight, .projectPromoLink .homeFeaturedContent .highlightLink, .homeFeaturedContent .projectPromoLink .highlightLink {
+    font-size: 15px; }
+    .projectPromoLink p a, .projectPromoLink .homeFeaturedContent .highlight a, .homeFeaturedContent .projectPromoLink .highlight a, .projectPromoLink .homeFeaturedContent .highlightLink a, .homeFeaturedContent .projectPromoLink .highlightLink a {
+      font-size: 16px;
+      padding: 2px;
+      border: 2px solid white; }
+
+  .projectPromoLink2 a {
+    font-size: 16px;
+    padding: 2px;
+    border: 2px solid white; } }
+@media only screen and (max-width: 768px) {
+  .projectPromoArticleContainer {
+    padding-top: 0px; }
+    .projectPromoArticleContainer .projectPromoArticle {
+      padding: 10px; }
+      .projectPromoArticleContainer .projectPromoArticle header {
+        margin-top: 0px; }
+        .projectPromoArticleContainer .projectPromoArticle header h3 {
+          font-size: 20px; }
+      .projectPromoArticleContainer .projectPromoArticle div p, .projectPromoArticleContainer .projectPromoArticle div .homeFeaturedContent .highlight, .homeFeaturedContent .projectPromoArticleContainer .projectPromoArticle div .highlight, .projectPromoArticleContainer .projectPromoArticle div .homeFeaturedContent .highlightLink, .homeFeaturedContent .projectPromoArticleContainer .projectPromoArticle div .highlightLink {
+        font-size: 16px; }
+      .projectPromoArticleContainer .projectPromoArticle div ul {
+        padding-left: 20px; }
+        .projectPromoArticleContainer .projectPromoArticle div ul li {
+          font-size: 16px; }
+
+  .projectPromoLink p, .projectPromoLink .homeFeaturedContent .highlight, .homeFeaturedContent .projectPromoLink .highlight, .projectPromoLink .homeFeaturedContent .highlightLink, .homeFeaturedContent .projectPromoLink .highlightLink {
+    font-size: 15px; }
+    .projectPromoLink p a, .projectPromoLink .homeFeaturedContent .highlight a, .homeFeaturedContent .projectPromoLink .highlight a, .projectPromoLink .homeFeaturedContent .highlightLink a, .homeFeaturedContent .projectPromoLink .highlightLink a {
+      font-size: 16px;
+      padding: 2px;
+      border: 2px solid white; }
+
+  .projectPromoLink2 a {
+    font-size: 16px;
+    padding: 2px;
+    border: 2px solid white; } }
+.educationcontentNavContainer {
+  background-color: #E0E0E0; }
+
+.educationcontentNavArrow {
+  display: block;
+  position: fixed;
+  top: 100px;
+  z-index: 1000; }
+  .educationcontentNavArrow div {
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .educationcontentNavArrow div .triangleRight {
+      width: 14px;
+      border-top: 7px solid transparent;
+      border-left: 14px solid white;
+      border-bottom: 7px solid transparent;
+      border-right: none;
+      margin-right: 3px;
+      margin-left: 3px;
+      background: none;
+      padding: 0; }
+    .educationcontentNavArrow div .triangleDown {
+      width: 12px;
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      border-top: 12px solid white;
+      border-bottom: none;
+      margin-right: 3px;
+      margin-left: 3px;
+      background: none;
+      padding: 0; }
+
+.educationcontentNav {
+  list-style: none;
+  padding: 0px 5px 0px 10px; }
+  .educationcontentNav p, .educationcontentNav .homeFeaturedContent .highlight, .homeFeaturedContent .educationcontentNav .highlight, .educationcontentNav .homeFeaturedContent .highlightLink, .homeFeaturedContent .educationcontentNav .highlightLink {
+    font-weight: 800;
+    margin: 0;
+    font-size: 22px; }
+  .educationcontentNav li {
+    border-bottom: 1px solid black;
+    font-size: 16px; }
+
+.educationcontentNavHeader {
+  font-size: 27px;
+  color: black;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.15);
+  padding: 5px;
+  font-weight: 800;
+  border-radius: 3px; }
+
+.projectHowtoContainer .howtoNote {
+  text-align: center;
+  color: white;
+  border-bottom: black 2px solid;
+  font-size: 17px; }
+.projectHowtoContainer .howtoSectionTop .howtoTopIntro {
+  background-color: #FF9800;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 10px 20px 10px 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+  .projectHowtoContainer .howtoSectionTop .howtoTopIntro header {
+    text-align: center;
+    margin: 10px 0px 10px 0px; }
+    .projectHowtoContainer .howtoSectionTop .howtoTopIntro header h2 {
+      color: black;
+      font-weight: 800;
+      margin: 0;
+      padding: 0;
+      font-size: 35px; }
+  .projectHowtoContainer .howtoSectionTop .howtoTopIntro p, .projectHowtoContainer .howtoSectionTop .howtoTopIntro .homeFeaturedContent .highlight, .homeFeaturedContent .projectHowtoContainer .howtoSectionTop .howtoTopIntro .highlight, .projectHowtoContainer .howtoSectionTop .howtoTopIntro .homeFeaturedContent .highlightLink, .homeFeaturedContent .projectHowtoContainer .howtoSectionTop .howtoTopIntro .highlightLink {
+    color: black;
+    text-align: center;
+    font-size: 17px;
+    margin: 10px 0px 10px 0px;
+    padding: 0; }
+.projectHowtoContainer .howtoSectionTop .howtoTopImage header {
+  text-align: center;
+  margin: 10px 0px 10px 0px; }
+  .projectHowtoContainer .howtoSectionTop .howtoTopImage header h2 {
+    color: white;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+    font-size: 35px; }
+.projectHowtoContainer .howtoSectionMain .howtoMain article {
+  padding: 20px;
+  background-color: #212121;
+  border: white 2px solid;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+  .projectHowtoContainer .howtoSectionMain .howtoMain article header h3 {
+    color: #E0E0E0;
+    font-size: 50px;
+    font-weight: 800;
+    margin: 0;
+    padding: 0; }
+  .projectHowtoContainer .howtoSectionMain .howtoMain article p, .projectHowtoContainer .howtoSectionMain .howtoMain article .homeFeaturedContent .highlight, .homeFeaturedContent .projectHowtoContainer .howtoSectionMain .howtoMain article .highlight, .projectHowtoContainer .howtoSectionMain .howtoMain article .homeFeaturedContent .highlightLink, .homeFeaturedContent .projectHowtoContainer .howtoSectionMain .howtoMain article .highlightLink {
+    color: #E0E0E0;
+    font-size: 20px; }
+
+.projectVideo {
+  margin-bottom: 20px; }
+
+.projectVideoScript {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ef6c00; }
+  .projectVideoScript header {
+    width: 100%;
+    background-color: black;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 800; }
+    .projectVideoScript header h1 {
+      text-align: center;
+      color: white;
+      padding: 5px;
+      margin: 0; }
+  .projectVideoScript p, .projectVideoScript .homeFeaturedContent .highlight, .homeFeaturedContent .projectVideoScript .highlight, .projectVideoScript .homeFeaturedContent .highlightLink, .homeFeaturedContent .projectVideoScript .highlightLink {
+    font-size: 22px;
+    background-color: #EEEEEE;
+    border-radius: 2px;
+    width: 95%;
+    color: black;
+    padding: 10px 20px 10px 20px;
+    margin: 15px 0px 15px 0px; }
+
+.projectSideNavContainer {
+  background-color: #E0E0E0; }
+
+.projectSideNavArrow {
+  display: block;
+  position: fixed;
+  top: 100px;
+  z-index: 1000; }
+  .projectSideNavArrow div {
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .projectSideNavArrow div .triangleRight {
+      width: 14px;
+      border-top: 7px solid transparent;
+      border-left: 14px solid white;
+      border-bottom: 7px solid transparent;
+      border-right: none;
+      margin-right: 3px;
+      margin-left: 3px;
+      background: none;
+      padding: 0; }
+    .projectSideNavArrow div .triangleDown {
+      width: 12px;
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      border-top: 12px solid white;
+      border-bottom: none;
+      margin-right: 3px;
+      margin-left: 3px;
+      background: none;
+      padding: 0; }
+
+.projectSideNav {
+  list-style: none;
+  padding: 0px 5px 0px 10px; }
+  .projectSideNav p, .projectSideNav .homeFeaturedContent .highlight, .homeFeaturedContent .projectSideNav .highlight, .projectSideNav .homeFeaturedContent .highlightLink, .homeFeaturedContent .projectSideNav .highlightLink {
+    font-weight: 800;
+    margin: 0;
+    font-size: 22px; }
+  .projectSideNav li {
+    border-bottom: 1px solid black;
+    font-size: 16px; }
+    .projectSideNav li a {
+      color: black; }
+
+.projectSideNavHeader {
+  font-size: 27px;
+  color: black;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.15);
+  padding: 5px;
+  font-weight: 800;
+  border-radius: 3px; }
+  .projectSideNavHeader a {
+    color: black; }
+
+.projectContainer {
+  display: flex; }
+
+.projectContainer2 {
+  background-color: #424242; }
+
+/*# sourceMappingURL=final.css.map */

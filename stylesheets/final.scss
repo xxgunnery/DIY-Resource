@@ -1,0 +1,119 @@
+$primary-color-orange: #ef6c00;
+$secondary-color-orange: #FF9800;
+$transparent-black: rgba(0,0,0,.85);
+$transparent-black2:rgba(0,0,0,.6);
+$grey-background1: #424242;
+$sm: 768px;
+$md: 992px;
+$lg: 1200px;
+$form-color: rgba(white,.6);
+$form-highlight: #2196F3;
+$educationqa:#FBC02D;
+$fancywhite: #E0E0E0;
+
+@mixin marginDestroy($marginvalue) {
+    margin-left: $marginvalue;
+    margin-right: $marginvalue;
+}
+@mixin imageSize($widthvalue) {
+    width: $widthvalue;
+    height: auto;
+}
+@mixin marginCenter($percentwidth) {
+    width: $percentwidth;
+    margin-left: (100%-$percentwidth)/2;
+    margin-right: (100%-$percentwidth)/2;
+}
+.mainContainer {
+    margin-top: 90px;
+}
+.bootstrapPaddingDestroy {
+    padding: 0;
+}
+.mainForm {
+    header {
+        padding: 0;
+        h1 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: 800;
+        }
+    }
+    div {
+        background-color: $form-color;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 40px;
+        label {
+            display: block;
+            font-size: 20px;
+            font-weight: 800;
+        }
+        .formInputText {
+            margin-bottom: 10px;
+            padding: 4px;
+            border-radius: 5px;
+            border: none;
+            width: 95%;
+            &:focus {
+                -webkit-box-shadow: 0px 0px 5px 1px $form-highlight;
+                -moz-box-shadow: 0px 0px 5px 1px $form-highlight;
+                box-shadow: 0px 0px 5px 1px $form-highlight;
+            }
+        }
+        label {
+            .formInputCheck {
+                margin-right: 20px;
+            }
+        }
+        button {
+            display: block;
+            padding: 5px;
+            margin: 5px 0px 15px 0px;
+        }
+        .highlightLink {
+            color: black;
+            font-size: 20px;
+            padding: 5px;
+            background-color: $primary-color-orange;
+            border-radius: 3px;
+        }
+    }
+    .formBump {
+        margin-left: 18px;
+        background: none;
+        margin-top: 0;
+    }
+}
+.flexRows {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flexColumns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.boldText {
+    font-weight: 800;
+}
+@import 'home';
+@import 'portal';
+@import 'premium';
+@import 'contact';
+@import 'termsofuse';
+@import 'login';
+@import 'signup';
+@import 'forgotpassword';
+@import 'projects';
+@import 'educational';
+@import 'educationcontent';
+@import 'projectPromo';
+@import 'projectParts';
+@import 'projectHowto';
+@import 'projectVideo';
+@import 'projectEconomy';
+@import 'projectNav';
+@import 'projectGeneral';

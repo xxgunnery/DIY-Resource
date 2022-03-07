@@ -1,0 +1,293 @@
+.educationContainer {
+    display: flex;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.educationcontentNavContainer {
+    background-color: #E0E0E0;
+}
+.educationcontentNavArrow {
+    display: block;
+    position: fixed;
+    top: 100px;
+    z-index: 1000;
+    div {
+        background-color: rgba(white,.2);
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .triangleRight {
+            width: 14px;
+            border-top: 7px solid transparent;
+            border-left: 14px solid white;
+            border-bottom: 7px solid transparent;
+            border-right: none;
+            margin-right: 3px;
+            margin-left: 3px;
+            background: none;
+            padding: 0;
+        }
+        .triangleDown {
+            width: 12px;
+            border-left: 6px solid transparent;
+            border-right: 6px solid transparent;
+        	border-top: 12px solid white;
+            border-bottom: none;
+            margin-right: 3px;
+            margin-left: 3px;
+            background: none;
+            padding: 0;
+        }
+    }
+}
+.educationcontentNav {
+    list-style: none;
+    padding: 0px 5px 0px 10px;
+    p {
+        font-weight: 800;
+        margin: 0;
+        font-size: 22px;
+    }
+    li {
+        border-bottom: 1px solid black;
+        font-size: 16px;
+    }
+}
+.educationcontentNavHeader {
+    font-size: 27px;
+    color: black;
+    text-align: center;
+    background-color: rgba(black,.15);
+    padding: 5px;
+    font-weight: 800;
+    border-radius: 3px;
+}
+.educationcontentContainer {
+    background-color: #424242;
+    .educationcontentVideo {
+        @include marginCenter(70%);
+    }
+    header {
+        h1 {
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+    }
+    #expandVertical {
+        background-color: rgba(black,.2);
+        color: white;
+        border: none;
+        border-radius: 3px;
+        font-size: 20px;
+        margin-bottom: 10px;
+        .triangleRight {
+            display: inline-block;
+            width: 16px;
+            border-top: 7px solid transparent;
+            border-left: 14px solid white;
+            border-bottom: 7px solid transparent;
+            margin-right: 3px;
+        }
+        .triangleDown {
+            display: inline-block;
+            width: 12px;
+            border-left: 6px solid transparent;
+            border-right: 6px solid transparent;
+        	border-top: 12px solid white;
+            margin-right: 3px;
+        }
+    }
+    .educationcontentDetails {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #educationcontentDetailsList {
+        display: none;
+        padding: 20px 20px 20px 20px;
+        background-color: rgba(black,.2);
+        border-radius: 8px;
+        p {
+            color: white;
+            font-size: 18px;
+        }
+        li {
+            color: white;
+            font-size: 18px;
+            margin-left: 40px;
+        }
+    }
+}
+.educationcontentSection {
+    padding: 10px;
+    header {
+        margin: 10px 10px 10px 10px;
+        h2 {
+        font-size: 20px;
+        font-weight: 800;
+        color: white;
+        background-color: rgba(black,.2);
+        display: inline;
+        padding: 8px 10px 8px 10px;
+        border-radius: 3px;
+        }
+    }
+    p {
+        color: white;
+        font-size: 18px;
+        padding: 10px 10px 10px 10px;
+        @include marginCenter(95%);
+    }
+    .educationcontentQA {
+        @include marginCenter(95%);
+        background-color: $educationqa;
+        padding: 10px 25px 10px 25px;
+        border-radius: 6px;
+        border-top: inset;
+        border-bottom: groove;
+        border-left: none;
+        border-right: none;
+        border-width: 6px;
+        border-color: #BDBDBD;
+        article {
+            div {
+                margin: 15px 0px 15px 0px;
+                h3 {
+                    color: black;
+                    font-weight: 800;
+                    font-size: 18px;
+                    margin: 0;
+                    padding: 0;
+                    display: inline;
+                }
+                p {
+                    font-size: 18px;
+                    color: black;
+                    padding: 0;
+                    margin: 10px 0px 10px 10px;
+                    display: inline;
+                }
+            }
+        }
+    }
+}
+.educationcontentEasylinks {
+    margin-bottom: 5px;
+    a {
+        background-color: black;
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+}
+.educationcontentReferences {
+    width: 100%;
+    background-color: black;
+    margin: 0px 0px 10px 0px;
+    padding: 0;
+    text-align: center; 
+    list-style-position:inside;
+    li {
+        color: white;
+        padding: 0;
+        a {
+            color: white;
+        }
+    }
+}
+.educationcontentImageXS {
+    @include marginCenter(20%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    img {
+        width: 100%;
+    }
+}
+.educationcontentImageS {
+    @extend .educationcontentImageXS;
+    @include marginCenter(40%);
+}
+.educationcontentImageM {
+    @extend .educationcontentImageXS;
+    @include marginCenter(60%);
+}
+.educationcontentImageL {
+    @extend .educationcontentImageXS;
+    @include marginCenter(80%);
+}
+.educationcontentImageXL {
+    @extend .educationcontentImageXS;
+    @include marginCenter(90%);
+}
+@media only screen and (max-width: $sm) {
+    .educationcontentContainer {
+        .educationcontentVideo {
+            @include marginCenter(80%);
+        }
+        header {
+            h1 {
+                font-size: 20px;
+            }
+        }
+        #expandVertical {
+            font-size: 14px;
+            .triangleRight {
+                width: 10px;
+                border-top: 5px solid transparent;
+                border-left: 10px solid white;
+                border-bottom: 5px solid transparent;
+            }
+            .triangleDown {
+                width: 8px;
+                border-left: 4px solid transparent;
+                border-right: 4px solid transparent;
+                border-top: 8px solid white;
+            }
+        }
+        #educationcontentDetailsList {
+            padding: 10px 10px 10px 10px;
+            width: 85%;
+            p {
+                font-size: 14px;
+            }
+            li {
+                font-size: 14px;
+            }
+        }
+    }
+    .educationcontentSection {
+        header {
+            h2 {
+            font-size: 15px;
+            }
+        }
+        p {
+            font-size: 14px;
+        }
+        .educationcontentQA {
+            padding: 0px 15px 0px 15px;
+            article {
+                div {
+                    margin: 15px 0px 15px 0px;
+                    h3 {
+                        font-size: 14px;
+                    }
+                    p {
+                        font-size: 14px;
+                        margin: 10px 0px 10px 10px;
+                    }
+                }
+            }
+        }
+    }
+    .educationcontentEasylinks {
+        a {
+            font-size: 14px;
+        }
+    }
+}

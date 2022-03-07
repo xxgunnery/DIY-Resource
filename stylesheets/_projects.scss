@@ -1,0 +1,194 @@
+.projectsContainer {
+    background-color: #F57C00;
+    padding: 20px;
+}
+.projectsNavSection {
+    list-style: none;
+    h1 {
+        margin: 0;
+    }
+    .projectCardContainer {
+        background-color: white;
+        margin: 20px 0px 20px 0px;
+        position: relative;
+        box-shadow: -2px 2px 5px black;
+    }
+}
+.projectCard {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px 30px 40px;
+    header {
+        margin-bottom: 20px;
+        h2 {
+            font-size: 35px;
+            margin: 0;
+            font-weight: 800;
+            color: black;
+        }
+    }
+    p {
+        color: black;
+        font-size: 20px;
+        text-align: center;
+        padding: 5px 5px 5px 5px;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        a {
+            color: black;
+            background-color: $primary-color-orange;
+            padding: 5px;
+            border-radius: 4px;
+            font-size: 20px;
+            margin: 10px 0px 10px 0px;
+            width: 40%;
+            align-self: center;
+            text-align: center;
+        }
+    }
+}
+.projectImageXS {
+    @include marginCenter(20%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    img {
+        width: 100%;
+    }
+}
+.projectImageS {
+    @extend .projectImageXS;
+    @include marginCenter(40%);
+}
+.projectImageM {
+    @extend .projectImageXS;
+    @include marginCenter(60%);
+}
+.projectImageL {
+    @extend .projectImageXS;
+    @include marginCenter(80%);
+}
+.projectImageXL {
+    @extend .projectImageXS;
+    @include marginCenter(90%);
+}
+@media only screen and (max-width: 1500px) and (min-width: 1201px) {
+    .projectCard {
+        nav {
+            flex-direction: row;
+            justify-content: center;
+            a {
+                margin: 0px 10px 0px 10px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: $lg) and (min-width: 991px) {
+    .projectsNavSection {
+        h1 {
+            font-size: 20px;
+        }
+    }
+    .projectCard {
+        header {
+            h2 {
+                font-size: 16px;
+            }
+        }
+        p {
+            font-size: 14px;
+        }
+        nav {
+            flex-direction: row;
+            justify-content: center;
+            a {
+                margin: 0px 10px 0px 10px;
+                width: 40%;
+                font-size: 14px;
+            }
+        }
+    }    
+}
+@media only screen and (max-width: 990px) and (min-width: 750px) {
+    .projectsNavSection {
+        h1 {
+            font-size: 20px;
+        }
+    }
+    .projectCard {
+        header {
+            h2 {
+                font-size: 16px;
+            }
+        }
+        p {
+            font-size: 14px;
+        }
+        nav {
+            flex-direction: row;
+            justify-content: center;
+            a {
+                margin: 0px 10px 0px 10px;
+                width: 50%;
+                font-size: 14px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 749px) and (min-width: 450px) {
+    .projectsNavSection {
+        h1 {
+            font-size: 20px;
+        }
+    }
+    .projectCard {
+        header {
+            h2 {
+                font-size: 16px;
+            }
+        }
+        p {
+            font-size: 14px;
+        }
+        nav {
+            flex-direction: row;
+            justify-content: center;
+            a {
+                margin: 0px 10px 0px 10px;
+                width: 50%;
+                font-size: 14px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 449px) {
+    .projectsNavSection {
+        h1 {
+            font-size: 20px;
+        }
+    }
+    .projectCard {
+        header {
+            h2 {
+                font-size: 16px;
+            }
+        }
+        p {
+            font-size: 14px;
+        }
+        padding: 10px;
+        nav {
+            flex-direction: row;
+            justify-content: center;
+            a {
+                font-size: 14px;
+                width: 70%;
+                margin: 0px 5px 0px 5px;
+            }
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+}

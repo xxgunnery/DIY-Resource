@@ -1,0 +1,61 @@
+.educationalSection {
+    display: inline;
+}
+.educationalContainer {
+    background-color: #F57C00;
+    padding: 20px;
+}
+.educationalNavSection {
+    list-style: none;
+    h1 {
+        margin: 0;
+    }
+    .educationalCardContainer {
+        background-color: white;
+        margin: 20px 0px 20px 0px;
+        position: relative;
+        box-shadow: -2px 2px 5px black;
+    }
+}
+.educationalCard {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 20px 15px 20px;
+    header {
+        margin-bottom: 20px;
+        h2 {
+            font-size: 22px;
+            margin: 0;
+            font-weight: 800;
+            color: black;
+        }
+    }
+    p {
+        color: black;
+        font-size: 16px;
+    }
+    a {
+        color: black;
+        background-color: $primary-color-orange;
+        padding: 5px;
+        border-radius: 4px;
+        font-size: 18px;
+        margin: 10px 0px 10px 0px;
+        align-self: center;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 1600px) and (min-width: 1201px) {
+    .educationalNavSection {
+        list-style: none;
+        h1 {
+            margin: 0;
+        }
+        .educationalCardContainer {
+            background-color: white;
+            margin: 20px 0px 20px 0px;
+            position: relative;
+            box-shadow: -2px 2px 5px black;
+        }
+    }
+}

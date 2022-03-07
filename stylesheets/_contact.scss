@@ -1,0 +1,81 @@
+.contactContainer {
+    @include marginCenter(90%);
+    background-color: #424242;
+    margin-top: 90px;
+    padding-top: 20px;
+}
+.contactSection {
+    margin-bottom: 20px;
+    header {
+        margin-bottom: 20px;
+        background-color: black;
+        padding: 4px 0px 4px 0px;
+        h1 {
+            color: white;
+            font-size: 27px;
+            margin: 0;
+            font-weight: 800;
+        }
+    }
+}
+.contactSectionContent {
+    background-color: rgba(white,.1);
+    border-radius: 8px;
+    padding: 8px 0px 8px 0px;
+    p {
+        color: white;
+        margin: 5px 0px 5px 0px;
+        font-size: 20px;
+    }
+    .contactDescription {
+        border-bottom: 2px white solid;
+        padding-bottom: 10px;
+    }
+    .leftText {
+        text-align: right;
+    }
+    li {
+        color: white;
+        font-size: 20px;
+        margin-left: 40px;
+    }
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    img {
+        height: 70px;
+        width: auto;
+        &:hover {
+            background-color: rgba(white,1);
+            padding: 5px;
+            border-radius: 3px;
+        }
+    }
+}
+@media only screen and (max-width: $sm) {
+    .contactSection header {
+        h1 {
+            font-size: 20px;
+        }
+    }
+    .contactSectionContent {
+        p {
+            font-size: 16px;
+            text-align: center;
+        }
+        .leftText {
+            text-align: center;
+        }
+        img {
+            height: 50px;
+        }
+        li {
+            font-size: 16px;
+            margin-left: 20px;
+        }
+    }
+}

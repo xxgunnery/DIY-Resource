@@ -1,0 +1,73 @@
+.projectHowtoContainer {
+    .howtoNote {
+        text-align: center;
+        color: white;
+        border-bottom: black 2px solid;
+        font-size: 17px;
+    }
+    .howtoSectionTop {
+        .howtoTopIntro {
+            background-color: $secondary-color-orange;
+            @include marginCenter(80%);
+            padding: 10px 20px 10px 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            header {
+                text-align: center;
+                margin: 10px 0px 10px 0px;
+                h2 {
+                    color: black;
+                    font-weight: 800;
+                    margin: 0;
+                    padding: 0;
+                    font-size: 35px;
+                }
+            }
+            p {
+                color: black;
+                text-align: center;
+                font-size: 17px;
+                margin: 10px 0px 10px 0px;
+                padding: 0;
+            }
+        }
+        .howtoTopImage {
+            header {
+                text-align: center;
+                margin: 10px 0px 10px 0px;
+                h2 {
+                    color: white;
+                    font-weight: 800;
+                    margin: 0;
+                    padding: 0;
+                    font-size: 35px;
+                }
+            }
+        }
+    }
+    .howtoSectionMain {
+        .howtoMain {
+            article {
+                padding: 20px;
+                background-color: #212121;
+                border: white 2px solid;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                header {
+                    h3 {
+                        color: #E0E0E0;
+                        font-size: 50px;
+                        font-weight: 800;
+                        margin: 0;
+                        padding: 0;
+                    }
+                }
+                p {
+                    color: #E0E0E0;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
